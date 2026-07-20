@@ -1,0 +1,4 @@
+# SPA fallback: the app uses BrowserRouter (clean URLs), so every path must
+# serve index.html and let the client router take over. Without this, a refresh
+# or direct link to /stats, /profile, etc. would 404 on Netlify.
+/*    /index.html   200
